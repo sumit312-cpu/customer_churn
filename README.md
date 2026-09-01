@@ -4,97 +4,81 @@ Predict • Explain • Act — Smart Retention Insights
 
 ---
 
-## 📌 Overview
+🌐 Live Application
 
-This is an **AI-powered Customer Churn Prediction System** built using Machine Learning and Streamlit.
+👉 Try the App Here:
+🔗 https://customerchurn-gpvp2yxqfhjmmtfvkfzcrw.streamlit.app/
 
-It helps businesses:
-- Identify customers likely to churn
-- Understand key reasons behind churn
-- Take actionable business decisions
+📌 Overview
 
----
+Customer Churn Intelligence AI is a production-ready machine learning application that helps businesses:
 
-## 🖼️ Dashboard Preview
+Predict customer churn
+Understand key reasons behind churn
+Take data-driven retention actions
 
-### 📊 Main Dashboard
-![Dashboard](assets/dashboard.png)
+It combines Machine Learning + SHAP Explainability + Business Intelligence into one interactive dashboard.
 
-### 🔍 SHAP Explainability
-![SHAP](assets/shap.png)
+🖼️ Dashboard Preview
+📊 Main Dashboard
+<p align="center"> <img src="assets/dashboard.png" width="900"/> </p>
+🔍 SHAP Explainability
+<p align="center"> <img src="assets/shap.png" width="900"/> </p>
+🤖 AI Chatbot
+<p align="center"> <img src="assets/chatbot.png" width="900"/> </p>
 
-### 🤖 AI Chatbot
-![Chatbot](assets/chatbot.png)
+🔥 Key Features
 
----
+📊 Churn Prediction
+Real-time churn probability
+ML-based classification
+Risk levels:
+🟢 Low
+🟠 Medium
+🔴 High
 
-## 🔥 Features
+🎯 Interactive Dashboard
+KPI Metrics (Risk, Probability, Tenure)
+Gauge chart visualization
+Clean SaaS-style UI
 
-### 📊 Churn Prediction
-- Predict churn probability
-- Risk classification:
-  - 🟢 Low
-  - 🟠 Medium
-  - 🔴 High
+🔍 Explainable AI (SHAP)
+Waterfall chart (local explanation)
+Feature importance graph
+Global summary insights
 
----
+🤖 AI Churn Analyst
+Human-like chatbot
+Explains churn reasoning
+Provides business recommendations
+Domain-restricted intelligent responses
 
-### 🎯 Interactive Dashboard
-- KPI Metrics (Risk, Probability, Tenure)
-- Gauge Chart Visualization
-- Clean SaaS UI
+📊 Model Evaluation
+ROC Curve (AUC Score)
+Confusion Matrix
+Model performance validation
 
----
+📄 PDF Report
+Downloadable customer insights
+Business-friendly summary
 
-### 🔍 Explainable AI (SHAP)
-- Waterfall chart (local explanation)
-- Feature importance graph
-- Global summary insights
+🧠 Tech Stack
+Python
+Streamlit
+Scikit-learn
+Pandas / NumPy
+Plotly
+SHAP
+Matplotlib
+ReportLab
 
----
-
-### 🤖 AI Churn Analyst
-- Human-like chatbot
-- Explains churn reasoning
-- Gives business recommendations
-- Domain-specific responses only
-
----
-
-### 📊 Model Evaluation
-- ROC Curve (AUC Score)
-- Confusion Matrix
-- Performance validation
-
----
-
-### 📄 PDF Report
-- Download customer insights
-- Business-friendly summary
-
----
-
-## 🧠 Tech Stack
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas / NumPy
-- Plotly
-- Matplotlib
-- SHAP
-- ReportLab
-
----
-
-## 📁 Project Structure
-
+📁 Project Structure
 customer_churn/
 │
 ├── assets/
-│ ├── Dashboard.png
-│ ├── SHAP Graph.png
-│ └── Chatbot (2).png
+│   ├── dashboard.png
+│   ├── shap.png
+│   └── chatbot.png
 │
 ├── app.py
 ├── model.pkl
@@ -102,43 +86,42 @@ customer_churn/
 ├── requirements.txt
 └── README.md
 
----
-
-## ⚙️ Run Locally
-
-```bash
+⚙️ Run Locally
 git clone https://github.com/sumit312-cpu/customer_churn.git
 cd customer_churn
 
 pip install -r requirements.txt
 streamlit run app.py
 
-🌐 Live Demo
-  
-👉 https://customerchurn-gpvp2yxqfhjmmtfvkfzcrw.streamlit.app/
-
-
 🎯 Use Cases
-
 Telecom companies
 SaaS platforms
-Subscription businesses
 Banking & Finance
+Subscription-based businesses
 
 🚀 Future Improvements
-
-🔐 Login System
-🗄 Database Integration
-☁️ Cloud Deployment
-📊 Real-time data pipeline
+🔐 Authentication system
+🗄 Database integration
+☁️ Cloud scaling (AWS/GCP)
+📊 Real-time analytics
 
 👨‍💻 Author
-
 Sumit Tiwari
-
-💼 Aspiring Data Scientist / ML Engineer
+Aspiring Data Scientist / ML Engineer
 📍 Bengaluru, India
 
 ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you found this useful:
+
+👉 Give it a ⭐ on GitHub
+👉 Share with your network
+
+💡 Recruiter Note
+This project demonstrates:
+
+End-to-end ML pipeline
+Explainable AI (SHAP)
+Business-oriented thinking
+Interactive dashboard development
+Real-world deployment
