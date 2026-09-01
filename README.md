@@ -88,6 +88,7 @@ It helps businesses:
 ---
 
 ## 📁 Project Structure
+
 customer_churn/
 │
 ├── assets/
@@ -113,25 +114,30 @@ pip install -r requirements.txt
 streamlit run app.py
 
 🌐 Live Demo
+  
+👉 https://customerchurn-gpvp2yxqfhjmmtfvkfzcrw.streamlit.app/
 
-👉 (Add after deployment)
-
-https://your-app-name.streamlit.app
 
 🎯 Use Cases
+
 Telecom companies
 SaaS platforms
 Subscription businesses
 Banking & Finance
+
 🚀 Future Improvements
+
 🔐 Login System
 🗄 Database Integration
 ☁️ Cloud Deployment
 📊 Real-time data pipeline
+
 👨‍💻 Author
 
 Sumit Tiwari
-Aspiring Data Scientist | AI/ML Engineer
+
+💼 Aspiring Data Scientist / ML Engineer
+📍 Bengaluru, India
 
 ⭐ Support
 
