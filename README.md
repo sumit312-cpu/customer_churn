@@ -18,13 +18,13 @@ It helps businesses:
 ## 🖼️ Dashboard Preview
 
 ### 📊 Main Dashboard
-![Dashboard](assets/Dashboard.png)
+![Dashboard](assets/dashboard.png)
 
 ### 🔍 SHAP Explainability
-![SHAP](assets/SHAP%20Graph.png)
+![SHAP](assets/shap.png)
 
 ### 🤖 AI Chatbot
-![Chatbot](assets/Chatbot%20(2).png)
+![Chatbot](assets/chatbot.png)
 
 ---
 
