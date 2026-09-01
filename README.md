@@ -2,10 +2,8 @@
 
 Predict • Explain • Act — Smart Retention Insights
 
-👉 Live App:
-https://customerchurn-gpvp2yxqfhjmmtfvkfzcrw.streamlit.app/
 
-📌 Overview:
+##📌 Overview:
 
 Customer Churn Intelligence AI is a production-ready machine learning application designed to help businesses predict, understand, and reduce customer churn.
 
@@ -17,7 +15,7 @@ It combines:
 
 to transform raw customer data into actionable retention strategies.
 
-🧠 Problem Statement:
+##🧠 Problem Statement:
 
 Customer churn directly impacts revenue and growth.
 Most businesses struggle with:
@@ -28,7 +26,7 @@ Taking timely and effective action
 
 👉 This project solves all three.
 
-💡 Solution:
+##💡 Solution:
 
 This system provides an end-to-end churn intelligence platform:
 
@@ -56,7 +54,7 @@ Enables interactive analysis via chatbot
 
 
 
-📊 1. Churn Prediction Engine:
+##📊 1. Churn Prediction Engine:
 
 ML-based churn prediction model
 Real-time probability scoring
@@ -65,13 +63,13 @@ Risk segmentation:
 🟠 Medium Risk
 🔴 High Risk
 
-🎯 2. Interactive SaaS Dashboard:
+##🎯 2. Interactive SaaS Dashboard:
 
 KPI cards (Risk, Probability, Tenure)
 Gauge chart visualization
 Clean, responsive UI
 
-🔍 3. Explainable AI (SHAP):
+##🔍 3. Explainable AI (SHAP):
 
 Waterfall chart (individual prediction)
 Feature importance visualization
@@ -79,19 +77,21 @@ Global feature impact summary
 
 👉 Helps understand why the model predicted churn.
 
-🤖 4. AI Churn Analyst (Chatbot) :
+##🤖 4. AI Churn Analyst (Chatbot) :
+
 Human-like conversational insights
 Explains churn reasoning
 Provides business recommendations
 Domain-controlled (only churn-related queries)
 Follow-up suggestions like real analyst
 
-📊 5. Model Evaluation Module :
+##📊 5. Model Evaluation Module :
+
 ROC Curve (AUC Score)
 Confusion Matrix
 Performance validation using test data
 
-📄 6. Automated PDF Report:
+##📄 6. Automated PDF Report:
 
 Business-ready customer summary
 Includes:
@@ -99,7 +99,7 @@ Risk level
 Key drivers
 Recommended actions
 
-🧠 Tech Stack:
+##🧠 Tech Stack:
 
 | Category       | Tools              |
 | -------------- | ------------------ |
@@ -111,7 +111,7 @@ Recommended actions
 | UI             | Streamlit          |
 | Reporting      | ReportLab          |
 
-📁 Project Structure:
+##📁 Project Structure:
 customer_churn/
 │
 ├── assets/
@@ -125,33 +125,34 @@ customer_churn/
 ├── requirements.txt
 └── README.md
 
-⚙️ Run Locally:
+##⚙️ Run Locally:
 git clone https://github.com/sumit312-cpu/customer_churn.git
 cd customer_churn
 
 pip install -r requirements.txt
 streamlit run app.py
-🌐 Deployment:
+
+##🌐 Deployment:
 
 This app is deployed on Streamlit Cloud:
 
 👉 https://customerchurn-gpvp2yxqfhjmmtfvkfzcrw.streamlit.app/
 
-🎯 Business Use Cases:
+##🎯 Business Use Cases:
 
 📡 Telecom companies
 💳 Banking & Financial Services
 📦 Subscription-based platforms
 💻 SaaS businesses
 
-📈 Impact:
+##📈 Impact:
 
 ✔ Identify high-risk customers early
 ✔ Reduce churn rate
 ✔ Improve customer retention
 ✔ Enable data-driven decisions
 
-🚀 Future Improvements:
+##🚀 Future Improvements:
 
 🔐 User authentication system
 🗄 Database integration (real-time data)
